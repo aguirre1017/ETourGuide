@@ -21,8 +21,6 @@ import com.parse.ParseUser;
 import com.thesis.etourguide.utility.AlertDialogManager;
 import com.thesis.etourguide.utility.Utility;
 
-// test commit here
-
 public class LoginActivity extends Activity {
 
 	AlertDialogManager alert = new AlertDialogManager();
