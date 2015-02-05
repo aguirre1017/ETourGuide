@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true" >
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="@dimen/main_buttonWidth"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/blue_button"
+            style="@style/ButtonText"
+            android:textSize="@dimen/main_button"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/main_buttonWidth"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@drawable/blue_button"
+            style="@style/ButtonText"
+            android:textSize="@dimen/main_button"
+            android:layout_marginTop="30dp"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="@dimen/main_buttonWidth"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:background="@drawable/blue_button"
+            style="@style/ButtonText"
+            android:textSize="@dimen/main_button"
+            android:layout_marginTop="30dp"
+            android:layout_centerVertical="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
