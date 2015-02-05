@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_nomenu"/>
+	
+    <LinearLayout 
+        android:layout_margin="@dimen/login_layoutMarginTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:hint="Email address"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/login_marginTop"
+            android:textSize="@dimen/textSize_normal"
+            android:drawableLeft="@drawable/ic_email" />
+         
+         <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="@dimen/login_marginTop"
+            android:textSize="@dimen/textSize_normal"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_password_textview" />
+         
+         <TextView android:id="@+id/txtLog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF3300"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/login_marginTop"
+            android:textSize="@dimen/textSize_normal"
+            android:visibility="invisible" 
+            android:gravity="center" />
+         
+          <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_marginTop_signinButton"
+            android:background="@drawable/blue_button"
+            style="@style/ButtonText"
+            android:textSize="@dimen/button_normal"
+            android:text="Login" />
+         
+          <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/login_marginTop_registerLink"
+            android:textSize="@dimen/textSize_normal"
+            android:gravity="center"
+            android:textColor="#4169E1"
+            android:text="Register" />
+          
+    </LinearLayout>
+</LinearLayout>

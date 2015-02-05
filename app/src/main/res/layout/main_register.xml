@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <include layout="@layout/layout_header_nomenu"/>
+     	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        android:padding="@dimen/register_padding" >
+	        
+			<!--  Name TextField -->
+	        <EditText
+	            android:id="@+id/registerName"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:hint="Name"
+	            android:drawableLeft="@drawable/ic_profile_textview"
+	            android:layout_marginTop="@dimen/register_marginTop"
+            	android:textSize="@dimen/textSize_normal" />
+
+            <!--  Address TextField -->
+            <EditText
+                android:id="@+id/registerAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:drawableLeft="@drawable/ic_profile_textview"
+                android:layout_marginTop="@dimen/register_marginTop"
+                android:textSize="@dimen/textSize_normal" />
+
+            <!--  Age TextField -->
+            <EditText
+                android:id="@+id/registerAge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age"
+                android:drawableLeft="@drawable/ic_birthdate"
+                android:layout_marginTop="@dimen/register_marginTop"
+                android:textSize="@dimen/textSize_normal" />
+
+	        <!--  Email TextField -->
+	        <EditText
+	            android:id="@+id/registerEmail"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:hint="Email Address"
+	            android:inputType="textEmailAddress"
+	            android:drawableLeft="@drawable/ic_email"
+	            android:layout_marginTop="@dimen/register_marginTop"
+            	android:textSize="@dimen/textSize_normal" />
+	       
+	        <!--  Password TextField -->
+	        <EditText
+	            android:id="@+id/registerPassword"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:hint="Password"
+	            android:password="true" 
+	            android:drawableLeft="@drawable/ic_password_textview"
+	            android:layout_marginTop="@dimen/register_marginTop"
+	            android:layout_marginBottom="@dimen/register_marginBottom_registerButton"
+            	android:textSize="@dimen/textSize_normal" />
+	      
+	        <!--  Register Button -->
+	        <Button
+	            android:id="@+id/btnRegister"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="15dp"
+	            android:background="@drawable/blue_button"
+	            style="@style/ButtonText"
+	            android:textSize="@dimen/button_normal"
+	            android:text="Register" />
+	        
+	        <TextView
+	            android:id="@+id/txtSignIn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="@dimen/register_marginTop_signInLink"
+            	android:textSize="@dimen/textSize_normal"
+	            android:gravity="center"
+	            android:textColor="#4169E1"
+	            android:text="Login" />
+	 		
+	    </LinearLayout>
+    </LinearLayout>
+    
+</ScrollView>

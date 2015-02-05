@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+ 
+    <com.thesis.etourguide.utility.ResizableImageView
+        android:id="@+id/LogoImage"
+        android:layout_width="@dimen/splash_imgWidth"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_splash_icon" />
+ 	
+    <ProgressBar
+        android:id="@+id/activity_splash_progress_bar"
+        android:progressDrawable="@drawable/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="@dimen/splash_barWidth"
+        android:layout_height="@dimen/splash_barHeight"
+        android:layout_below="@+id/LogoImage"
+        android:layout_marginTop="@dimen/splash_marginTop"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+ 
+</RelativeLayout>

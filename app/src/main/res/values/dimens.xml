@@ -1,0 +1,88 @@
+<resources>
+
+    <dimen name="actionbar_title">20sp</dimen>
+    <dimen name="actionbar_padding">3dp</dimen>
+    <dimen name="actionbar_menuTextSize">16sp</dimen>
+    
+    <dimen name="corner_radius">8dp</dimen> 
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen> 
+    
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    
+    <dimen name="textSize_normal">17sp</dimen>
+    <dimen name="button_normal">15sp</dimen>
+    
+    <dimen name="listview_itemPadding">5dp</dimen>
+    <dimen name="listview_imageWidth">90dp</dimen>
+    <dimen name="listview_imageHeight">90dp</dimen>
+    <dimen name="listview_imagePaddingRight">5dp</dimen>
+    <dimen name="listview_name">18sp</dimen>
+    <dimen name="listview_shortDesc">14sp</dimen>
+    <dimen name="listview_totalPoint">16sp</dimen>
+    
+    <dimen name="listviewEmpty_imgWidth">60dp</dimen>
+    <dimen name="listviewEmpty_textMarginTop">10dp</dimen>
+    <dimen name="listviewEmpty_textFont">20sp</dimen>
+    
+    <dimen name="merchantDetail_tabFont">14sp</dimen>
+    <dimen name="merchantDetail_tabPaddingTopBottom">8dp</dimen>
+    <dimen name="merchantDetail_tabPaddingLeftRight">3dp</dimen>
+    
+    
+    <dimen name="splash_imgWidth">100dp</dimen>
+    <dimen name="splash_barWidth">150dp</dimen>
+    <dimen name="splash_barHeight">20dp</dimen>
+    <dimen name="splash_marginTop">15dp</dimen>
+    
+    <dimen name="main_button">20sp</dimen>
+    <dimen name="main_buttonWidth">220dp</dimen>
+    
+    <dimen name="register_padding">10dp</dimen>
+    <dimen name="register_marginTop">10dp</dimen>
+    <dimen name="register_marginBottom_registerButton">15dp</dimen>
+    <dimen name="register_marginTop_signInLink">30dp</dimen>
+    
+    <dimen name="login_layoutMarginTop">20dp</dimen>
+    <dimen name="login_marginTop">10dp</dimen>
+    <dimen name="login_marginTop_signinButton">15dp</dimen>
+    <dimen name="login_marginTop_registerLink">30dp</dimen>
+    
+    <dimen name="home_menu_gridColumnWidth">110dp</dimen>
+    <dimen name="home_menu_gridVerticalSpacing">20dp</dimen>
+    <dimen name="home_menu_imageWidth">60dp</dimen>
+    <dimen name="home_menu_imageHeight">60dp</dimen>
+    <dimen name="home_menu_itemPadding">2dp</dimen>
+    <dimen name="home_menu_marginBottom">2dp</dimen>
+    <dimen name="home_menu_name">13sp</dimen>
+    
+    <dimen name="stamp_bodyPadding">20dp</dimen>
+    <dimen name="stamp_labelMarginTop">10dp</dimen>
+    <dimen name="stamp_labelTextSize">15dp</dimen>
+    <dimen name="stamp_priceMargin">10dp</dimen>
+    <dimen name="stamp_priceTextSize">50sp</dimen>
+    <dimen name="stamp_buttonTextSize">25sp</dimen>
+    
+    <dimen name="profile_padding">10dp</dimen>
+    <dimen name="profile_marginTop">10dp</dimen>
+    <dimen name="profile_marginBottom_saveButton">15dp</dimen>
+    
+    <dimen name="changePassword_padding">10dp</dimen>
+    <dimen name="changePassword_marginTop">10dp</dimen>
+    
+    <dimen name="tabStyle_textFont">15sp</dimen>
+    <dimen name="tabStyle_padding">5dp</dimen>
+    
+    <dimen name="claim_padding">10dp</dimen>
+    <dimen name="reward_claim_imageWidth">200dp</dimen>
+    <dimen name="claim_imageMarginTop">20dp</dimen>
+    <dimen name="claim_messageMarginTop">5dp</dimen>
+    <dimen name="claim_marginTop">40dp</dimen>
+    <dimen name="claim_marginBottom">40dp</dimen>
+    <dimen name="claim_buttonWidth">200dp</dimen>
+
+</resources>

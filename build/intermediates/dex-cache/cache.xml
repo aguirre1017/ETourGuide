@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\projects\ETourGuide\app\libs\ParseCrashReporting-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55e71442ecbce939ce2a1ad75d1a4408a61d6804">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\ParseCrashReporting-1.8.0-6229e3ae158dc6072599310c51471deb265bce6f.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-2c7b3f93a4765de67fc456e30fee656c798d7e65.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\classes-890539eb98f73cf32568c1eb54ccbb445ccdbb21.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\classes-0f310d6cdac6d388143405f6c0e8a6441ba7548f.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-63e93e6e2af717eefbe624ffa52dfdbfbe3c0924.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\volley-36cbdcccce5d5006bb014c12d7735b132cc88d40.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\libs\Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\Parse-1.8.0-1ad340ca2630c124484248f7e99f246d88d576c5.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\classes-00d8b9f59a2c4b59e4f4f8790e6d2f596ae147ee.jar" />
+    </item>
+    <item
+        jar="D:\projects\ETourGuide\app\libs\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\projects\ETourGuide\app\build\intermediates\pre-dexed\release\bolts-android-1.1.4-f7f4c1a07fbefb5bb4b5365570eeafcbb542c018.jar" />
+    </item>
+
+</items>
