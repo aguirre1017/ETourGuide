@@ -2,8 +2,6 @@ package com.thesis.etourguide;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.DatePickerDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -21,7 +19,6 @@ import android.widget.TextView;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
-
 import com.thesis.etourguide.utility.AlertDialogManager;
 import com.thesis.etourguide.utility.Utility;
 
@@ -125,7 +122,7 @@ public class RegisterActivity extends Activity {
                                 alert.showAlertDialog(RegisterActivity.this, "", e.getMessage(), false);
                             } else {
                                 // Start an intent for the dispatch activity
-                                Intent intent = new Intent(RegisterActivity.this, SurveyLocation.class);
+                                Intent intent = new Intent(RegisterActivity.this, MainHomeActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);
                             }

@@ -15,10 +15,10 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.thesis.etourguide.R;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.thesis.etourguide.R;
 
 /**
  * QuickAction dialog, shows action list as icon and text like the one in Gallery3D app. Currently supports vertical 

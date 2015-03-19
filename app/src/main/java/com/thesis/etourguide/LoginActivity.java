@@ -1,6 +1,7 @@
 package com.thesis.etourguide;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,12 +13,10 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.app.ProgressDialog;
 
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
-
 import com.thesis.etourguide.utility.AlertDialogManager;
 import com.thesis.etourguide.utility.Utility;
 
@@ -27,9 +26,7 @@ public class LoginActivity extends Activity {
 	
 	EditText inputEmail;
     EditText inputPassword;
-    
-    TextView txtLog;
-    
+
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -87,7 +84,7 @@ public class LoginActivity extends Activity {
                             // Show the error message
                             alert.showAlertDialog(LoginActivity.this, "", e.getMessage(), false);
                         } else {
-                            Intent intent = new Intent(LoginActivity.this, SurveyLocation.class);
+                            Intent intent = new Intent(LoginActivity.this, MainHomeActivity.class);
                             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                             startActivity(intent);
                         }

@@ -3,19 +3,18 @@ package com.thesis.etourguide;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.parse.ParseQuery;
-import com.parse.ParseQueryAdapter;
-
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
+import com.parse.ParseQuery;
+import com.parse.ParseQueryAdapter;
 import com.thesis.etourguide.utility.AlertDialogManager;
 import com.thesis.etourguide.utility.Utility;
 

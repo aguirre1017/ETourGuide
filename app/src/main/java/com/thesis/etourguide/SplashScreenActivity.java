@@ -1,16 +1,14 @@
 package com.thesis.etourguide;
 
-import com.thesis.etourguide.utility.LoadingTask;
-import com.thesis.etourguide.utility.Utility;
-import com.thesis.etourguide.utility.LoadingTask.LoadingTaskFinishedListener;
-
-import com.parse.ParseUser;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.ProgressBar;
+
+import com.parse.ParseUser;
+import com.thesis.etourguide.utility.LoadingTask;
+import com.thesis.etourguide.utility.LoadingTask.LoadingTaskFinishedListener;
 
 public class SplashScreenActivity extends Activity implements LoadingTaskFinishedListener {
 

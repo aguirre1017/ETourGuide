@@ -4,14 +4,12 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import com.parse.Parse;
-import com.parse.ParseObject;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
-
+import com.parse.Parse;
+import com.parse.ParseObject;
 import com.thesis.etourguide.utility.LruBitmapCache;
 
 public class Application extends android.app.Application {

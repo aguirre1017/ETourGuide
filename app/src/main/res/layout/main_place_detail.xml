@@ -27,7 +27,17 @@
                 android:layout_weight="1"
                 style="@style/ButtonText"
                 android:textSize="@dimen/button_normal"
-                android:text="View in Map" />
+                android:text="View Map" />
+
+            <Button
+                android:id="@+id/btnComments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_button"
+                android:layout_weight="1"
+                style="@style/ButtonText"
+                android:textSize="@dimen/button_normal"
+                android:text="Comments" />
 
             <Button
                 android:id="@+id/btnRateIt"
@@ -37,7 +47,7 @@
                 android:layout_weight="1"
                 style="@style/ButtonText"
                 android:textSize="@dimen/button_normal"
-                android:text="Rate This Place" />
+                android:text="Rate This!" />
 
         </LinearLayout>
 
@@ -53,6 +63,7 @@
                 android:layout_margin="@dimen/login_layoutMarginTop"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:layout_marginBottom="50dp"
                 android:orientation="vertical">
 
                 <com.android.volley.toolbox.NetworkImageView
@@ -99,32 +110,25 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:text="How To Get There"/>
+                <TextView
+                    android:id="@+id/txtHowToGetThere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize_normal" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="Category"/>
                 <TextView
                     android:id="@+id/txtCategory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textSize_normal" />
-
-                <LinearLayout
-                    android:layout_marginTop="30dp"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:textSize="18sp"
-                        android:text="Comments"/>
-
-                    <ListView
-                        android:id="@+id/listviewComment"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent" />
-
-                </LinearLayout>
+                    android:textSize="@dimen/textSize_normal"
+                    android:layout_gravity="fill"
+                    android:paddingBottom="30dp"/>
 
             </LinearLayout>
 

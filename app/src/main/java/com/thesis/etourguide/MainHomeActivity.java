@@ -1,5 +1,6 @@
 package com.thesis.etourguide;
 
+import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,13 +9,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
-import android.app.TabActivity;
 
+import com.parse.ParseUser;
 import com.thesis.etourguide.utility.ActionItem;
 import com.thesis.etourguide.utility.AlertDialogManager;
 import com.thesis.etourguide.utility.QuickAction;
-
-import com.parse.ParseUser;
 import com.thesis.etourguide.utility.Utility;
 
 public class MainHomeActivity extends TabActivity {

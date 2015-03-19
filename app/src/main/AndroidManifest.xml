@@ -39,6 +39,7 @@
         <activity android:name=".RecommendedPlaces" android:screenOrientation="portrait"/>
 
         <activity android:name=".PlaceDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PlaceCommentActivity" android:screenOrientation="portrait"/>
         <activity android:name=".RatePlaceActivity" android:screenOrientation="portrait"/>
 
         <meta-data

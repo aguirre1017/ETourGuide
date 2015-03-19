@@ -1,12 +1,6 @@
 package com.thesis.etourguide;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
 import android.app.Dialog;
-import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
@@ -15,13 +9,7 @@ import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.parse.ParseUser;
-import com.thesis.etourguide.utility.ActionItem;
-import com.thesis.etourguide.utility.GPSTracker;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -32,7 +20,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.thesis.etourguide.utility.QuickAction;
+import com.thesis.etourguide.utility.GPSTracker;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
 
 public class MainMapActivity extends FragmentActivity {
 
